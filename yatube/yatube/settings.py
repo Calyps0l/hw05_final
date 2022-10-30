@@ -30,6 +30,8 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '[::1]',
     'testserver',
+    'www.Calyps0l.pythonanywhere.com',
+    'Calyps0l.pythonanywhere.com',
 ]
 
 LIMIT_POST: int = 10
@@ -61,6 +63,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'yatube.urls'
 
